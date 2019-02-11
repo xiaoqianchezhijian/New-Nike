@@ -1,0 +1,126 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+body{
+    background:url(../img/index_img/20190118_CNY_CDP_PHASE_V2_CDP4_PC_10.jpg) -100px -100px;
+}
+.registered_wrap{
+    width:362px;
+    height:519px;
+    background: rgba(167, 122, 122, 0.219);
+    margin-top:55px;
+    margin-left: 983px;
+    border-radius: 10px;
+
+}
+.logo{
+    width:100%;
+    height:100px;
+}
+.logo img{
+    padding-top:30px;
+    padding-left:30px;
+}
+.dz-top{
+    width:100%;
+    height:60px;
+}
+
+.login{
+    float:left;
+    width:180px;
+    text-align: center;
+    height:60px;
+    line-height: 60px;
+}
+.registered{
+    float:left;
+    width:181px;
+    text-align: center;
+    height:60px;
+    line-height: 60px;
+}
+a{
+    color:#000;
+    font-size: 16px;
+    text-decoration: none;
+}
+.login-xuan{
+    height:230px;
+    position: relative;
+    display: none;
+}
+.login-xuan.active{
+    display: block;
+}
+.account-wrap{
+    margin-top:50px;
+    margin-left:35px;
+}
+.account{
+    width:200px;
+    height:25px; 
+    border:1px solid #000;
+    background: rgba(167, 122, 122, 0.219);
+}
+
+.password-wrap{
+    margin-top:50px;
+    margin-left:35px;
+}
+.password{
+    width:200px;
+    height:25px;
+    border:1px solid #000; 
+    background: rgba(167, 122, 122, 0.219);
+}
+
+.denglu{
+    width:100px;
+    height:30px;
+    font-size: 16px;
+    position: absolute;
+    bottom:30px;
+    left:128px;
+    border-radius: 5px;
+    border:1px solid #000;
+    background: rgba(167, 122, 122, 0.219);
+    color:#000;
+}
+.dz-top .active a{
+    color:#aaa
+}
+.denglu:hover{
+    cursor: pointer;
+    color:#aaa;
+}
+.bottom ul{
+    width:100%;
+    height:30px;
+    margin-top:25px;
+    margin-left:10px;
+}
+.bottom ul li{
+    float:left;
+}
+.bottom ul li .iconfont{
+    font-size: 20px;
+}
+.vx{
+    margin-top:2px;
+}
+
+.registered-xuan{
+    height:230px;
+    position: relative;
+    display: none;
+}
+.registered-xuan.active{
+    display: block;
+}
+.registered-xuan .account-wrap{
+    margin-top:30px;
+    margin-left:35px;
+}  
+.registered-xuan .password-wrap{
+    margin-top:30px;
+    margin-left:35px;
+}

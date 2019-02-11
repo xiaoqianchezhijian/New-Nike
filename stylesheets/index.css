@@ -1,0 +1,438 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+body{
+   
+    width:100%;
+    height:2000px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.nikeTop_container{
+    width:100%;
+    height:108px;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    background: #fff;
+    
+}
+.nikeTop{
+    border-bottom:1px solid #e5e5e5;
+    width:100%;
+    height:39px;
+}
+.nikebot{
+    border-bottom:1px solid #e5e5e5;
+    height:67px;
+}
+.thrlogo{
+    position: relative;
+}
+.thrlogo li{
+    float:left;
+    text-align: center;
+    height:39px;
+    line-height: 39px;
+    border-right:1px solid #e5e5e5;
+}
+.fir{
+    width:114px;  
+}
+.thrlogo a{
+    color:#8d8d8d;
+    font-size: 14px;
+}
+.thrlogo .fir a:hover{
+    color:#000;
+}
+.aj{
+    width:80px;
+}
+.aj a:hover{
+    color:#db2531
+}
+.aj .iconfont{
+    font-weight: 600
+}
+.converse{
+    width:130px;
+}
+.converse a{
+    font-weight: 900;
+    font-size: 12px;
+}
+.converse a:hover{
+    color:#000;
+}
+.topRight{
+    float:right;
+    margin-right:25px;
+}
+.topRight>li{
+    float:left;
+    line-height: 39px;
+}
+.topRight>li>a{
+    color:#8d8d8d;
+    font-size: 12px;
+    display: block;
+    padding:0 10px;
+}
+
+/* ----------------------小二级导航start------------------------- */
+.help{
+    position: relative;
+}
+.help:hover{
+    border-bottom:2px solid #000;
+}
+.helptwo{
+    display:none;
+    position: absolute;
+    top:41px;
+    left:-35px;
+    border:1px solid #e5e5e5;
+    width:48px;
+    line-height:24px;
+    z-index: 999;
+    background: #fff;
+    font-size:12px;
+    padding:26px 32px 25px;
+    border-top:none;   
+}
+.helptwo a{
+    color:#000;
+}
+.help>.helptwo a:hover{
+    color:#8d8d8d
+}
+/*---------------------------------- 小二级导航end------------------------------------ */
+
+
+.topRight .iconfont{
+    font-size: 19px;
+}
+.topRight .China{
+    font-size:10px;
+    color:red
+}
+.topRight li a:hover{
+    color:#000;
+}
+.nikebot{
+    line-height: 67px;
+    position: relative;
+}
+.logo{
+    height:67px;
+    width: 150px;
+    float:left;
+}
+.nav{
+    float:left;
+    margin-left:175px;
+    margin-top:-4px;
+    
+}
+.nav li {
+    float:left;
+    box-sizing: border-box;
+    margin-top:1px;
+}
+.nav li a{
+    color:#000;
+    padding:0 20px;
+    font-family:  OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+.nav li:hover{
+    border-bottom: 2px solid #000;
+}
+.search-wrap{
+    float:right;
+    margin-right:35px;
+    width:194px;
+    height:35px;
+    margin-top:9px;
+    position: relative;
+    border:1px solid #e5e5e5;
+    border-radius: 2px;
+}
+ #search{
+     position: absolute;
+     top:9px;
+     left:30px;
+     width:146px;
+     outline: none;
+     border:0;
+ }
+ .search-wrap i{
+    position: absolute;
+    top:-16px;
+    left:12px;
+    height:20px;
+    font-weight: bold
+ }
+
+#list{
+    padding-top:20px;
+    
+}
+ #list li{
+     width:194px;
+     height:20px;
+     font-size:12px;
+     color:#000;
+ }
+ 
+
+/*------------------------- 二级导航start------------------------------ */
+.newspring{
+    width:100%;
+    height:90px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+}
+
+.men{
+    width:100%;
+    height:90px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+}
+
+
+.chaopin{
+    width:100%;
+    height:90px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+}
+/*--------------------- 二级导航end -----------------------------------*/
+ 
+
+
+/* ---------------轮播图------------ */
+.banner-container{
+    width:100%;
+    height:60px;
+    background:#f7f7f7;
+    border-bottom:1px solid #e5e5e5;
+    position: relative;
+    margin-top:108px;
+}
+.container-banner{
+    width:653px;
+    height:60px;
+    background:#f7f7f7;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#left{
+    width:25px;
+    height:25px;
+    position: absolute;
+    font-size:25px;
+    top:16px;
+    left:260px;
+    font-family:"宋体";
+    font-weight: bold;
+}
+#right{
+    width:25px;
+    height:25px;
+    position: absolute;
+    font-size:25px;
+    top:16px;
+    right:260px;
+    font-family:"宋体";
+    font-weight: bold;
+}
+.wrap-banner{
+    width:1959px;
+    margin:0 auto;
+    height:60px;
+    position: relative;
+    
+}
+#left:hover{
+    cursor: pointer;
+}
+#right:hover{
+    cursor: pointer;
+}
+.slider-banner{
+    float:left;
+    width:653px;
+    height:60px;
+}
+.slider-banner span{
+    display: inline-block;
+    width:310px;
+    text-align: center;
+    font-size:11px;
+    line-height: 1.2em;
+}
+.word{
+    margin-top:18px;
+    margin-left:150px;
+}
+.linkone{
+    position: absolute;
+    top:25px;
+    left:335px;
+}
+.linktwo{
+    position: absolute;
+    top:25px;
+    left:990px;
+}
+.linkthe{
+    position: absolute;
+    top:25px;
+    left:1645px;
+
+}
+.slider-banner span:nth-child(2) a{
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+    border-bottom:2px solid #000;
+    
+}
+.slider-banner span:nth-child(2) a:hover{
+    color:orangered;
+}
+/*--------------------------- 轮播图end------------------------------ */
+
+
+/* -------------------------侧导航start--------------------------- */
+/* .blank{
+    width:30px;
+    height:85px;
+    background:#fff;
+} */
+.nav-ce{
+    width:218px;
+    float:left;
+    position:sticky;
+    top:107px;
+    margin-left:33px;
+    margin-top:85px;
+    
+}
+
+.nav-ce-top{
+    width:218px;
+    height:162px;
+    border-top:1px solid #e5e5e5;
+}
+
+.content-title{
+    font-size:13px;
+    font-weight:bold;
+    height:44px;
+    line-height: 65px;
+}
+
+.content-style{
+    height: 24px;
+    line-height: 24px;
+    margin-left:16px;
+}
+.content-style a{
+    color:#000;
+    font-size:13px;
+}
+.content-style a:hover{
+    color:#8d8d8d
+}
+
+
+.nav-ce-bot{
+    height:345px;
+    border-top:1px solid #e5e5e5;
+    width:218px;
+}
+
+.content-stylebot{
+    margin-top:18px;
+    line-height: 24px;
+    line:24px;
+}
+  
+.content-stylebot a{
+    color:#000;
+    font-size:13px;
+}
+.content-stylebot a:hover{
+    color:#8d8d8d
+}
+
+/*------------------- 侧导航结束------------------------- */
+
+
+
+
+/*--------------------------- 主题内容start---------------------------- */
+.zhuti{
+    width:1050px;
+    float:right;
+}
+.fm-image{
+    height:285px;
+    float: right;
+    position: relative;
+}
+.fm-image img{
+    width:100%;
+    height:100%;
+}
+.url-buy a{
+    display: block;
+    padding:10px 20px;
+    background: #222222;
+    font-size: 15px;
+    color:#fff;
+    position: absolute;
+    bottom:50px;
+    right:60px;
+    border-radius: 2px;
+}
+
+
+/* ------------------图片展示内容区------------------- */
+.show-title{
+    width:1050px;
+    height:80px;
+    background: red;
+    float:right; 
+}
+
+.show-title-left{
+    float:left;
+    font-size: 24px;
+
+}
+.sort{
+    float: right;
+    border:1px solid #e5e5e5
+}
+
