@@ -44,7 +44,7 @@ a{
     text-decoration: none;
 }
 .login-xuan{
-    height:230px;
+    height:280px;
     position: relative;
     display: none;
 }
@@ -52,8 +52,24 @@ a{
     display: block;
 }
 .account-wrap{
-    margin-top:50px;
+   
     margin-left:35px;
+}
+.user,.pass,.repass{
+    margin-left:80px;
+    width:202px;
+    height:29px;
+    opacity: 0;
+    font-size: 6px;
+    margin-top:5px;
+}
+
+.realuser,.realpass{
+    width:202px;
+    height:29px;
+    margin-left:50px;
+    margin-bottom:20px;
+    opacity: 0;
 }
 .account{
     width:200px;
@@ -63,7 +79,6 @@ a{
 }
 
 .password-wrap{
-    margin-top:50px;
     margin-left:35px;
 }
 .password{
@@ -85,7 +100,37 @@ a{
     background: rgba(167, 122, 122, 0.219);
     color:#000;
 }
-.dz-top .active a{
+.zhuce{
+    width:100px;
+    height:30px;
+    font-size: 16px;
+    position: absolute;
+    bottom:30px;
+    left:128px;
+    border-radius: 5px;
+    border:1px solid #000;
+    background: rgba(167, 122, 122, 0.219);
+    color:#000;
+}
+.registered-xuan{
+    height:280px;
+    position: relative;
+    display: none;
+}
+.registered-xuan.active{
+    display: block;
+}
+
+.login a{
+    color:#000;
+}
+.login.active a{
+    color:#aaa
+}
+.registered{
+    color:#000;
+}
+.registered.active a{
     color:#aaa
 }
 .denglu:hover{
@@ -108,19 +153,3 @@ a{
     margin-top:2px;
 }
 
-.registered-xuan{
-    height:230px;
-    position: relative;
-    display: none;
-}
-.registered-xuan.active{
-    display: block;
-}
-.registered-xuan .account-wrap{
-    margin-top:30px;
-    margin-left:35px;
-}  
-.registered-xuan .password-wrap{
-    margin-top:30px;
-    margin-left:35px;
-}

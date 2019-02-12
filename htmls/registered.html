@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>registered</title>
+    <title>登录注册</title>
     <link rel="stylesheet" href="../stylesheets/registered.css">
     <link rel="stylesheet" href="../font/font_sggwjgwgcy/iconfont.css">
 </head>
@@ -22,23 +22,29 @@
                 <div class="login-xuan active">
                     <div class="account-wrap "> 
                         账号：<input type="text" class="account">
+                        <p class="realuser"></p>
                     </div>
                     <div class="password-wrap"> 
                         密码：<input type="password" class="password">
+                        <p class="realpass"></p>
                     </div>
                     <button class="denglu">登录</button>
                 </div>
                 <div class="registered-xuan">
                     <div class="account-wrap"> 
-                        注册账号：<input type="text" class="account">
+                        注册账号：<input type="text" class="account" id="account">
+                        <p class="user"></p>
+                    </div>
+
+                    <div class="password-wrap"> 
+                        注册密码：<input type="password" class="password" id="password">
+                        <p class="pass"></p>
                     </div>
                     <div class="password-wrap"> 
-                        注册密码：<input type="password" class="password">
+                        确认密码：<input type="password" class="password" id="qrpassword">
+                        <p class="repass"></p>
                     </div>
-                    <div class="password-wrap"> 
-                        确认密码：<input type="password" class="password">
-                    </div>
-                    <button class="denglu">注册</button>
+                    <button class="zhuce">注册</button>
                 </div>
             </div>    
         </div>
@@ -49,7 +55,8 @@
             </ul>
         </div>
     </div>
-    <script src="../javascripts/registered.js"></script>
+    
     <script src="http://libs.baidu.com/jquery/1.11.3/jquery.js"></script>
+    <script src="../javascripts/registered.js"></script>
 </body>
 </html>
