@@ -81,13 +81,27 @@ $(".nav .ns").on("mouseleave",function(){
       $(".nav .newspring").hide()
 })
 
+$(".nav .m").on("mouseover",function(){
+      $(".nav .men").show()
+})
+$(".nav .m").on("mouseleave",function(){
+      $(".nav .men").hide()
+})
 
-$(".nav .cp").on("mouseover",function(){
-      $(".nav .chaopin").show()
+$(".nav .w").on("mouseover",function(){
+      $(".nav .women").show()
 })
-$(".nav .cp").on("mouseleave",function(){
-      $(".nav .chaopin").hide()
+$(".nav .w").on("mouseleave",function(){
+      $(".nav .women").hide()
 })
+
+$(".nav .m").on("mouseover",function(){
+      $(".nav .men").show()
+})
+$(".nav .m").on("mouseleave",function(){
+      $(".nav .men").hide()
+})
+
 // ----------------------------二级菜单end------------------------------------
 
 // --------------------------百度节流去抖start-------------------------------

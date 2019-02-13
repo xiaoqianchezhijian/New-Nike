@@ -45,7 +45,7 @@ tab.init()
 // ------验证名户名start---------
 var $user=$("#account");
 var $reg_user= /^[a-zA-Z][a-zA-Z0-9]{4,15}$/;;
-$user.on("input",function(){
+$user.on("blur",function(){
     if($reg_user.test($user.val())===false){
         $(".user").css({
             color:"#f00",
@@ -64,7 +64,7 @@ $user.on("input",function(){
 // -----------验证密码start-------------
 var $psd=$("#password");
 var $reg_psd=/^[a-z0-9]{8,20}$/i;
-$psd.on("input",function(){
+$psd.on("blur",function(){
     if($reg_psd.test($psd.val())===false){
         $(".pass").css({
             color:"#f00",
@@ -83,7 +83,7 @@ $psd.on("input",function(){
 //--------验证二次输入密码start---------
 var $qrpsd=$("#qrpassword");
 var $reg_qrpsd=/^[a-z0-9]{8,20}$/i;
-$qrpsd.on("input",function(){
+$qrpsd.on("blur",function(){
     if($reg_qrpsd.test($qrpsd.val())===false){
         $(".repass").css({
             color:"#f00",
@@ -102,6 +102,7 @@ $qrpsd.on("input",function(){
     }
 })
 //--------验证二次输入密码end---------
+
 
 
 $(".zhuce").on("click",function(){
@@ -129,4 +130,42 @@ $(".zhuce").on("click",function(){
     }else{
         alert("请按规则正确输入账号密码")
     }
+})
+
+
+
+
+
+// 验证登录信息
+var $zaccount = $("#zaccount");
+var $mpass = $("#mpass");
+
+var $denglu = $(".denglu");
+
+$denglu.on("click",function(){
+    var $data = {
+        username : $zaccount.val(),
+        password : $mpass.val(),
+    }
+    // console.log($data)
+
+    $.ajax({
+        data : $data,
+        type : "POST",
+        dataType : "json",
+        url: "http://localhost/nike-master/php/login.php",
+        success: function (msg) {
+            // console.log(msg)
+            if (msg.stateCode === "登录成功"){
+                alert("登录成功")
+                $.cookie($username.val(), $password.val());
+                
+                location.href = "./index.html";
+            } else{
+                alert("用户名或密码错误");
+            }
+        }
+
+
+    })
 })
