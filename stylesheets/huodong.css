@@ -2,8 +2,9 @@
 body{
    
     width:100%;
-    height:2000px;
+    min-height:300px;
     position: relative;
+    
 }
 a{
     text-decoration: none;
@@ -131,10 +132,11 @@ img{
     height:67px;
     width: 150px;
     float:left;
+    
 }
 .nav{
     float:left;
-    margin-left:175px;
+    margin-left:240px;
     margin-top:-4px;
     
 }
@@ -318,7 +320,7 @@ img{
  
 
 
-/* ---------------轮播图------------ */
+/* --------------------------轮播图start-------------------------------- */
 .banner-container{
     width:100%;
     height:60px;
@@ -326,6 +328,7 @@ img{
     border-bottom:1px solid #e5e5e5;
     position: relative;
     margin-top:108px;
+    
 }
 .container-banner{
     width:653px;
@@ -410,7 +413,325 @@ img{
 .slider-banner span:nth-child(2) a:hover{
     color:orangered;
 }
-/*--------------------------- 轮播图end------------------------------ */
+/*--------------------------- -------轮播图end---------------------------------- */
+
+
+
+
+/* -----------------------中间内容区start--------------------------- */
+.content_wrap{
+    width:100%;
+    min-height: 10280px;
+    background: #6c171e;
+    overflow: hidden;
+}
+.content_one{
+    width:100%;
+    height:600px;
+}
+.content_one img{
+    width:100%;
+}
+.content_two{
+    width:100%;
+    height:192.22px;
+    background: url(../img/huodong_img/20190118_CNY_CDP_PHASE_V2_CDP4_PC_03.jpg) -10px;
+    text-align: center;
+    overflow: hidden;
+    margin-top:5px;
+}
+.content_two p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    color:#fff;
+    height:50px;
+    line-height: 50px;
+}
+.content_two p:nth-child(1){
+    margin-top:30px;
+}
+
+.content_thr{
+    width:100%;
+    height:108.75px;
+    text-align: center;
+}
+.content_thr ul{
+    margin-left:380px;
+    padding-top:50px;
+}
+.content_thr ul li{
+    float:left;
+}
+.content_thr ul li a{
+    display: block;
+    padding:0 35px;
+    border-right:1px solid #fff;
+    color:#fff;
+    font-size:14px;  
+}
+.content_thr .last a{
+    border:none;
+}
+.content_thr ul li a:hover{
+    text-decoration: underline;
+}
+.content_four{
+    width:100%;
+    height:170px;
+    background: url(../img/huodong_img/20190118_CNY_CDP_PHASE_V2_CDP4_PC_05.jpg);
+    text-align: center;
+    overflow: hidden;
+}
+ .big{
+    font-size: 40px;
+    font-weight: bold;
+    color:#fff;
+    margin-top:30px;
+}
+ .small{
+    margin-top:15px;
+    font-size: 15px;
+    color:#fff;
+}
+.bigone{
+    width:100%;
+    height:973px;
+    background: url(../img/huodong_img/big1.jpg);
+    overflow: hidden;
+}
+.bigtwo{
+    width:100%;
+    height:973px;
+    background: url(../img/huodong_img/big2.jpg);
+    overflow: hidden;
+}
+.bigthr{
+    width:100%;
+    height:973px;
+    background: url(../img/huodong_img/big2.jpg);
+    overflow: hidden;
+}
+.bigthr .chengqi{
+    margin-top:610px;
+}
+.bigtwo .chengqi{
+    margin-top:610px;
+}
+.chengqi>div{
+    width:264px;
+    height:330px;
+    float:left;
+    margin:0 20px;
+}
+.chengqi .tu{
+    width:100%;
+    height:270px;
+}
+.chengqi .title{
+    text-align: center;
+    color:#222;
+    font-size: 16px;
+}
+.chengqi .buy{
+    font-size:16px;
+    margin-top:10px;
+    text-align: center;
+}
+.chengqi .buy a{
+    color:#222;
+}
+.chengqi .buy a:hover{
+    text-decoration: underline;
+}
+.chengqi{
+    margin-top:650px;
+    margin-left:70px;
+
+}
+
+.more{
+    width:100%;
+    height:120px;
+    background: #6c171e;
+    text-align: center;
+    
+}
+.more a{
+    display:inline-block;
+    color:#fff;
+    margin-top:40px; 
+    font-size: 18px;
+}
+.more a:hover{
+    text-decoration: underline;
+}
+
+.basketball{
+    width:100%;
+    height:169px;
+    background: url(../img/huodong_img/basketball.jpg);
+    overflow: hidden;
+    text-align: center;
+}
+
+.bigfour{
+    width:100%;
+    height:976px;
+    background: url(../img/huodong_img/big4.jpg);
+    overflow: hidden;
+}
+
+.bigfive{
+    width:100%;
+    /* height:1067px; */
+    background: url(../img/huodong_img/big5.jpg);
+    overflow: hidden;
+}
+.bigfive .chengqi{
+    margin-top:610px;
+}
+
+.jordan{
+    width:100%;
+    height:120px;
+    background:#6c171e;
+    text-align: center;
+    overflow: hidden;
+}
+.jordan ul li{
+    float:left;
+}
+.jordan ul li a{
+    padding:0 80px;
+    font-size: 18px;
+    color:#fff;
+}
+.jordan ul {
+    margin-top:30px;
+    margin-left:360px;
+}
+
+.jordan ul li a:hover{
+    text-decoration: underline;
+}
+.sports{
+    width:100%;
+    height:169px;
+    background: url(../img/huodong_img/big6.jpg);
+    overflow: hidden;
+    text-align: center;
+}
+.bigsix{
+    width:100%;
+    /* height:1067px; */
+    background: url(../img/huodong_img/big7.jpg);
+    overflow: hidden;
+}
+.run{
+    width:100%;
+    height:120px;
+    background: #6c171e;
+    text-align: center;
+}
+.run a{
+    display:inline-block;
+    color:#fff;
+    margin-top:40px; 
+    font-size: 18px;
+}
+.run a:hover{
+    text-decoration: underline;
+}
+
+.child{
+    width:100%;
+    height:169px;
+    background: url(../img/huodong_img/big8.jpg);
+    overflow: hidden;
+    text-align: center;
+}
+
+.bigeig{
+    width:100%;
+    /* height:1067px; */
+    background: url(../img/huodong_img/big9.jpg);
+    overflow: hidden;
+}
+.moreertong{
+    width:100%;
+    height:120px;
+    background: #6c171e;
+    text-align: center;
+}
+.moreertong a{
+    display:inline-block;
+    color:#fff;
+    margin-top:40px; 
+    font-size: 18px;
+}
+.moreertong a:hover{   
+    text-decoration: underline;
+}
+.gezi{
+    width:100%;
+    height:104px;
+    background: url(../img/huodong_img/gezi.jpg)
+}
+.tuijian{
+    width:100%;
+    height:80px;
+    text-align: center;
+    font-size:40px;
+    color:#fff;
+    font-weight: bold;
+    margin-top:40px;
+}
+.jingxuan{
+    width:100%;
+    height:120px;
+    overflow: hidden;
+}
+
+.jingxuan ul li{
+    float: left;
+    border-right:1px solid #fff;
+}
+.jingxuan ul li a{
+    display: block;
+    padding:0 30px;
+   
+    color:#fff;
+    font-size: 14px;
+}
+.jingxuan ul{
+    margin-top:30px;
+    margin-left:350px;
+}
+.jingxuan ul .last{
+    border:0;
+}
+.jingxuan ul li a:hover{
+    text-decoration: underline;
+}
+
+.bignin{
+    width:100%;
+    height:448px;
+    background: url(../img/huodong_img/big10.jpg);
+}
+#fanhui{
+    cursor: pointer;
+    width:100%;
+    height:100px;
+    background: url(../img/huodong_img/fanhui.jpg)
+}
+
+/* -----------------------中间内容区end--------------------------- */
+
+
+
 
 
 
@@ -586,5 +907,6 @@ img{
 .bot a span:hover{
     color:#e5e5e5;
 }
+
 
 /*------------------------------ 尾部end-------------------------- */

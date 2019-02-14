@@ -421,7 +421,7 @@ img{
 /* -------------------------侧导航start--------------------------- */
 .zkuai{
     width:100%;
-    min-height:2000px;
+    min-height:2091px;
     /* background: pink; */
 }
 
@@ -594,6 +594,7 @@ img{
     width:1050px;
     float:right;
     position: relative;
+    margin-bottom: 30px;
 }
 .fm-image{
     background: url(../img/list_img/181203_MENAPP_PWH_PC.jpg);
@@ -625,11 +626,65 @@ img{
     margin-left:20px;
 }
 
+.shop{
+    width:1050px;
+    min-height:600px;
+}
+
+.shops_wrap{
+    width:220px;
+    height:286px;
+    padding:12px;
+    float:left;
+    margin-top:20px;
+    transition: 0.3s; 
+}
+.shop_image{
+    width:220px;
+    height:220px;
+    overflow: hidden;
+}
+
+.shop .shops_wrap:hover{
+    box-shadow: 1px 1px 10px #aaa;
+}
+.colorsum{
+    height:20px;
+    line-height:20px;
+    border-bottom:1px solid #aaa;
+    font-size: 12px;
+    color:#000;
+}
+.colorsum .star{
+    float:right;
+}
+.shops_wrap a .shop_title{
+    height:15px;
+    line-height: 25px;
+    color:#000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.shops_wrap a .shop_js{
+    font-size: 12px;
+    color:#666;
+    height:14px;
+    line-height: 22px;
+    
+}
+
+.shops_wrap a .shop_price{
+    font-size: 12px;
+    color:#666;
+    height:14px;
+    line-height: 22px;
+    
+}
 
 
 /* ------------------图片展示内容区------------------- */
 .show-title{
-    width:940px;
+    width:963px;
     height:80px;
     /* background: green;  */
     overflow: hidden;
@@ -656,12 +711,12 @@ img{
     width:100px;
     height:90px;
     padding:20px;
-    /* background: red; */
+    background: #fff;;
     position: absolute;
     z-index: 1;
     line-height: 22px;
     top:422px;
-    left:798px;
+    left:821px;
     text-align: left;
     border:1px solid #e5e5e5;
     opacity: 0;
@@ -684,6 +739,7 @@ img{
     background: url(../img/index_img/weibg.jpg);
     overflow: hidden;
     position: relative;
+   
 }
 .weibg p{
     text-align: center;

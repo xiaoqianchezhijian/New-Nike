@@ -223,3 +223,27 @@ $("#search").on("blur",function(){
       })
       // ------主体中下拉事件end-------------
       
+
+      // ----------------活动页渲染start--------------------
+      $.get("../json/list.json",function(res){
+            // console.log(res)
+            var html="";
+            var res=$(res);
+            $.each(res[0].result.liebiao.list,function(index,item){
+                  html+=`<div class="shops_wrap">
+                              <a href="">
+                                    <div class="shop_image">
+                                          <img src="${item.img}" alt="">
+                                    </div>
+                                    <div class="colorsum">
+                                          <span>${item.colorNum}</span>
+                                          <span class="star">${item.star}</span>
+                                    </div>
+                                    <div class="shop_title">${item.title}</div>
+                                    <div class="shop_js">${item.miaoshu}</div>
+                                    <div class="shop_price">${item.price}</div>
+                              </a>
+                        </div>`
+            })
+            $(".shop").html(html)
+      })

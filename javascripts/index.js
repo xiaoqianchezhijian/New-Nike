@@ -224,7 +224,7 @@ $("#search").on("blur",function(){
 // ------主体中下拉事件end-------------
 
 
-// ---------------主页的渲染及瀑布流start-------------
+// ---------------主页的渲染start-------------
 
 $.get("../json/index.json",function(res){
       // console.log(res)
@@ -249,4 +249,6 @@ $.get("../json/index.json",function(res){
       })
       $(".shop").html(html)
 })
+
+// ---------------主页的渲染end-------------
       
