@@ -233,7 +233,7 @@ $.get("../json/index.json",function(res){
       $.each(res[0].result.index.list,function(index,item){
             // console.log(res[0].result.index.list)
             html+=`<div class="shops_wrap">
-                        <a href="">
+                        <a href="./fangdajing.html">
                               <div class="shop_image">
                                      <img src="${item.img}" alt="">
                               </div>
@@ -249,6 +249,7 @@ $.get("../json/index.json",function(res){
       })
       $(".shop").html(html)
 })
+
 
 // ---------------主页的渲染end-------------
       

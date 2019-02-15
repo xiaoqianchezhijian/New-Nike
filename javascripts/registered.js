@@ -118,12 +118,14 @@ $(".zhuce").on("click",function(){
             type: "POST",
             dataType : "json",
             success: function (msg) {
+                console.log(msg)
                 if (msg.stateCode === "用户名重复"){
                     alert("用户名重复")
                 }else{
+                    console.log(1)
                     alert("注册成功")
-                    $.cookie('用户名', $user.val());
-                    location.href = "./registered.html";
+                    // $.cookie('用户名', $("#account").val());
+                    location.href = "./index.html";
                 }
             },
         })
@@ -158,7 +160,7 @@ $denglu.on("click",function(){
             // console.log(msg)
             if (msg.stateCode === "登录成功"){
                 alert("登录成功")
-                $.cookie($username.val(), $password.val());
+                $.cookie($zaccount.val(), $mpass.val());
                 
                 location.href = "./index.html";
             } else{

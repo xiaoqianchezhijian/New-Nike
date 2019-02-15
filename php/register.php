@@ -13,10 +13,7 @@
      $password = @$_POST["password"];
      $qrpassword = @$_POST["qrpassword"];
 
-     $inster_query = "INSERT INTO dengluzhuce ( username, password ,qrpassword)
-                        VALUES('$username','$password' , '$qrpassword')
-                    ";     
-
+     
     // 查询数据库   
     $search_query = "SELECT * FROM dengluzhuce"; 
 
@@ -24,7 +21,7 @@
 
     $json_array = array();
     while($row = mysql_fetch_array($res)){
-        array_push($json_array,$row);
+        // array_push($json_array,$row);
          if($username == $row["username"]){
             die('{"stateCode":"用户名重复"}');
          }
@@ -33,13 +30,23 @@
 
     echo $json_array;
 
-
+    $inster_query = "INSERT INTO dengluzhuce ( username, password ,qrpassword)
+                        VALUES('$username','$password' , '$qrpassword')
+                    ";     
+    $shiye_res = mysql_query($inster_query);
+    if($shiye_res){
+            die('{"state":"sucess","errortype":"null"}');
+    }else{
+        die('{"state":"error","errortype":"数据库插入失败"}');
+    }
     if($username == "" || $password == ""){
         return false;
     }else{
     // 执行sql语句的方法;
         mysql_query($inster_query);
     }
+    
+
 
     // 关闭数据库的链接;
     mysql_close($con);

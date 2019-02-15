@@ -1,0 +1,886 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+body{
+   
+    width:100%;
+    min-height:300px;
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.nikeTop_container{
+    width:100%;
+    height:108px;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    background: #fff;
+    
+}
+.nikeTop{
+    border-bottom:1px solid #e5e5e5;
+    width:100%;
+    height:39px;
+}
+.nikebot{
+    border-bottom:1px solid #e5e5e5;
+    height:67px;
+}
+.thrlogo{
+    position: relative;
+}
+.thrlogo li{
+    float:left;
+    text-align: center;
+    height:39px;
+    line-height: 39px;
+    border-right:1px solid #e5e5e5;
+}
+.fir{
+    width:114px;  
+}
+.thrlogo a{
+    color:#8d8d8d;
+    font-size: 14px;
+}
+.thrlogo .fir a:hover{
+    color:#000;
+}
+.aj{
+    width:80px;
+}
+.aj a:hover{
+    color:#db2531
+}
+.aj .iconfont{
+    font-weight: 600
+}
+.converse{
+    width:130px;
+}
+.converse a{
+    font-weight: 900;
+    font-size: 12px;
+}
+.converse a:hover{
+    color:#000;
+}
+.topRight{
+    float:right;
+    margin-right:25px;
+}
+.topRight>li{
+    float:left;
+    line-height: 39px;
+}
+.topRight>li>a{
+    color:#8d8d8d;
+    font-size: 12px;
+    display: block;
+    padding:0 10px;
+}
+
+/* ----------------------小二级导航start------------------------- */
+.help{
+    position: relative;
+}
+.help:hover{
+    border-bottom:2px solid #000;
+}
+.helptwo{
+    display:none;
+    position: absolute;
+    top:41px;
+    left:-35px;
+    border:1px solid #e5e5e5;
+    width:48px;
+    line-height:24px;
+    z-index: 999;
+    background: #fff;
+    font-size:12px;
+    padding:26px 32px 25px;
+    border-top:none;   
+}
+.helptwo a{
+    color:#000;
+}
+.help>.helptwo a:hover{
+    color:#8d8d8d
+}
+/*---------------------------------- 小二级导航end------------------------------------ */
+
+
+.topRight .iconfont{
+    font-size: 19px;
+}
+.topRight .China{
+    font-size:10px;
+    color:red
+}
+.topRight li a:hover{
+    color:#000;
+}
+.nikebot{
+    line-height: 67px;
+    position: relative;
+}
+.logo{
+    height:67px;
+    width: 150px;
+    float:left;
+    
+}
+.nav{
+    float:left;
+    margin-left:240px;
+    margin-top:-4px;
+    
+}
+.nav li {
+    float:left;
+    box-sizing: border-box;
+    margin-top:1px;
+}
+.nav li a{
+    color:#000;
+    padding:0 20px;
+    font-family:  OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+.nav>li:hover{
+    border-bottom: 2px solid #000;
+}
+.search-wrap{
+    float:right;
+    margin-right:35px;
+    width:194px;
+    height:35px;
+    margin-top:9px;
+    position: relative;
+    border:1px solid #e5e5e5;
+    border-radius: 2px;
+}
+ #search{
+     position: absolute;
+     top:9px;
+     left:30px;
+     width:146px;
+     outline: none;
+     border:0;
+ }
+ .search-wrap i{
+    position: absolute;
+    top:-16px;
+    left:12px;
+    height:20px;
+    font-weight: bold
+ }
+
+#list{
+    padding-top:20px;
+    
+}
+ #list li{
+     width:194px;
+     height:20px;
+     font-size:12px;
+     color:#000;
+ }
+ 
+
+/*------------------------- 二级导航start------------------------------ */
+.newspring{
+    width:100%;
+    height:90px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+}
+
+.men{
+    width:100%;
+    height:350px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+    padding-top:40px;
+    padding-left:360px;
+    
+    
+}
+.men div{
+    float:left;
+}
+ .men ul{
+    float:left;
+}
+.men ul li{
+    clear:both;
+    line-height: 25px;
+    font-size:8px;
+    
+}
+.nav ul li a{
+    font-size: 14px;
+}
+.nav ul li a:hover{
+    color:#aaa;
+}
+.nav .first a{
+    font-size: 16px;
+}
+
+.women{
+    width:100%;
+    height:370px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+    padding-top:40px;
+    padding-left:360px;
+}
+.women div{
+    float:left;
+}
+ .women ul{
+    float:left;
+}
+.women ul li{
+    clear:both;
+    line-height: 25px;
+    font-size:8px;
+    
+}
+
+.boy{
+    width:100%;
+    height:320px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+    padding-top:40px;
+    padding-left:360px;
+}
+
+.girl{
+    width:100%;
+    height:270px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+    padding-top:40px;
+    padding-left:360px;
+}
+
+.ding{
+    width:100%;
+    height:250px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+    padding-top:40px;
+    padding-left:360px;
+}
+
+
+.chaopin{
+    width:100%;
+    height:90px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    display: none;
+}
+/*--------------------- 二级导航end -----------------------------------*/
+ 
+
+
+/* --------------------------轮播图start-------------------------------- */
+.banner-container{
+    width:100%;
+    height:60px;
+    background:#f7f7f7;
+    border-bottom:1px solid #e5e5e5;
+    position: relative;
+    margin-top:108px;
+    
+}
+.container-banner{
+    width:653px;
+    height:60px;
+    background:#f7f7f7;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#left{
+    width:25px;
+    height:25px;
+    position: absolute;
+    font-size:25px;
+    top:16px;
+    left:260px;
+    font-family:"宋体";
+    font-weight: bold;
+}
+#right{
+    width:25px;
+    height:25px;
+    position: absolute;
+    font-size:25px;
+    top:16px;
+    right:260px;
+    font-family:"宋体";
+    font-weight: bold;
+}
+.wrap-banner{
+    width:1959px;
+    margin:0 auto;
+    height:60px;
+    position: relative;
+    
+}
+#left:hover{
+    cursor: pointer;
+}
+#right:hover{
+    cursor: pointer;
+}
+.slider-banner{
+    float:left;
+    width:653px;
+    height:60px;
+}
+.slider-banner span{
+    display: inline-block;
+    width:310px;
+    text-align: center;
+    font-size:11px;
+    line-height: 1.2em;
+}
+.word{
+    margin-top:18px;
+    margin-left:150px;
+}
+.linkone{
+    position: absolute;
+    top:25px;
+    left:335px;
+}
+.linktwo{
+    position: absolute;
+    top:25px;
+    left:990px;
+}
+.linkthe{
+    position: absolute;
+    top:25px;
+    left:1645px;
+
+}
+.slider-banner span:nth-child(2) a{
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+    border-bottom:2px solid #000;
+    
+}
+.slider-banner span:nth-child(2) a:hover{
+    color:orangered;
+}
+/*--------------------------- -------轮播图end---------------------------------- */
+
+
+
+/*------------------------------ 放大镜内容start-------------------------------- */
+
+.fangdajing_container{
+    width:100%;
+    height:1608px;
+    position: relative;
+}
+.fangdajing_top{
+    width:1102px;
+    height:655px;
+    margin:0 auto;
+    margin-top:30px;
+    position: relative;
+}
+.fangdajing_top>div{
+    float:left;
+}
+.fangdajing_top_smallwrap{
+    width:60px;
+    height:305px;
+    margin-right:20px;
+}
+.fangdajing_top_smallwrap .small{
+    margin-bottom:1px;
+    width:60px;
+    height:60px;
+    border:2px solid #fff;
+
+}
+
+.fangdajing_top_midwrap{
+    width:620px;
+    height:620px;
+    position: relative;
+}
+.fangdajing_top_midwrap img{
+    display: none;
+    position: absolute;
+}
+.fangdajing_top_midwrap .shade{
+    width:127px;
+    height:207px;
+    border:1px solid #fff;
+    background:#000;
+    opacity: 0.2;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.fangdajing_top_bigwrap{
+    display: none;
+    width:380px;
+    height:620px;
+    background: #000;
+    position: absolute;
+    left:720px;
+    top:0;
+    overflow: hidden;
+}
+.fangdajing_top_bigwrap img{
+    position: absolute;
+    display: none;
+}
+
+  
+
+.fangdajing_top_jieshao{
+    width:380px;
+    height:655px;
+    margin-left:20px;
+    background:#fff;
+}
+
+.fangdajing_top_jieshao_title{
+    height:98px;
+    border-bottom:1px solid #e5e5e5;
+}
+.fangdajing_top_jieshao_title .name{
+    font-size: 25px;
+    height:33px;
+    line-height: 33px;
+}
+.fangdajing_top_jieshao_title .kuanshi{
+    font-size: 14px;
+    height:24px;
+    line-height: 24px;
+    font-style: italic;
+    color:#555
+}
+
+.fangdajing_top_jieshao_title .price{
+    font-size: 18px;
+    font-weight:400;
+}
+
+.colorstyle{
+    height:35px;
+    font-size:12px;
+    color:#555;
+    line-height:50px;
+}
+.colorstyle .right{
+    float:right;
+}
+.rightpic{
+    margin-top:10px;
+    overflow: hidden;
+}
+.rightpic div{
+    float:left;
+    margin-right:2px;
+    border:2px solid #999
+}
+.guize{
+    height:150px;
+    background: #eee;
+    border-radius: 5px;
+    margin-top:8px;
+    color:#555;
+}
+.guize div{
+    height:40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding-left:10px;
+}
+.guize p{
+    height:30px;
+    font-size: 14px;
+    line-height: 14px;
+    padding-left:10px;
+}
+.buynav{
+    margin-top:30px;
+    overflow: hidden;
+}
+.buynav ul li{
+    float:left;  
+    font-size:14px;
+    background: #ddd;
+    width:180px;
+    height:40px;
+    margin:0 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.buynav ul li:nth-child(2){
+    background: orangered;
+}
+.buynav ul li a{
+    color:#555
+}
+.buynav ul li:nth-child(2) a{
+    color:#fff;
+}
+.buynav ul li:hover{
+    cursor: pointer;
+}
+.last{
+    height:180px;
+    /* background: yellow; */
+    margin-top:30px;
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.last div{
+    height:30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding-left:10px;
+    color:#111;
+}
+.last div a{
+    color:#333;
+    text-decoration: underline;
+}
+.last div a:hover{
+    color:orangered
+}
+.last p{
+    height:35px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.midtitle{
+    height:80px;
+    /* background: red; */
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+}
+
+.guess{
+    width:1050px;
+    height:310px;
+    margin:0 auto;
+    /* background: red; */
+    overflow: hidden;
+    position: relative;
+}
+.guesswrap>div{
+    float:left;
+}
+.guesswrap{
+    width:2500px;
+    height:350px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.shops_wrap{
+    width:220px;
+    height:286px;
+    padding:12px;
+    float:left;
+    margin-left:15px;
+    /* margin-top:20px; */
+    transition: 0.3s; 
+}
+.shop_image{
+    width:220px;
+    height:220px;
+    overflow: hidden;
+}
+
+.shops_wrap:hover{
+box-shadow: 2px 2px 30px #aaa;
+}
+.colorsum{
+height:20px;
+line-height:20px;
+border-bottom:1px solid #aaa;
+font-size: 12px;
+color:#000;
+}
+.colorsum .star{
+float:right;
+}
+.shops_wrap a .shop_title{
+height:15px;
+line-height: 25px;
+color:#000;
+font-size: 14px;
+font-weight: bold;
+}
+.shops_wrap a .shop_js{
+font-size: 12px;
+color:#666;
+height:14px;
+line-height: 22px;
+
+}
+
+.shops_wrap a .shop_price{
+font-size: 12px;
+color:#666;
+height:14px;
+line-height: 22px;
+}
+
+.lunbor{
+    position: absolute;
+    width:30px;
+    height:50px;
+    top:885px;
+    left:1205px;
+    font-size: 30px;
+    font-family: "宋体";
+    font-weight: bold;
+    cursor: pointer;
+}
+.lunbol{
+    position: absolute;
+    width:30px;
+    height:50px;
+    top:885px;
+    left:120px;
+    font-size: 30px;
+    font-family: "宋体";
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+/*------------------------------ 放大镜内容end-------------------------------- */
+
+
+
+/*------------------------------ 尾部start-------------------------- */
+.weibg{
+    width:100%;
+    height:231px;
+    background: url(../img/index_img/weibg.jpg);
+    overflow: hidden;
+    position: absolute;
+    bottom:300px;
+}
+.weibg p{
+    text-align: center;
+    margin:20px auto;
+    font-size:28px;
+    color:#333;
+}
+.weibg .zixun{
+    text-align: center;
+    margin:0 auto;
+    font-size:15px;
+    color:#aaa
+}
+.weibg .dingyue{
+    margin-top:105px;
+    text-align: center;
+    font-size: 15px;
+    font-family: OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+}
+.dingyue a{
+    color:#000;
+}
+.dingyue a span{
+    font-weight: bold
+}
+.dingyue i{
+    font-weight: bold
+}
+.dingyue a:hover{
+    text-decoration: underline
+}
+.weibg .add{
+    width:20px;
+    height:20px;
+    border:2px solid #bbb;
+    background:#ddd;
+    font-size: 25px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top:155px;
+    left:710px;
+    transition: 1s;
+}
+.add:hover{
+    background: #bbb;
+}
+.add a{
+    color:#bbb;
+}
+.add a:hover{
+    color:#000;
+}
+
+
+.bottom-container{
+    width:100%;
+    height:300px;
+    background:#222222;
+    overflow: hidden;
+    position: absolute;
+    bottom:0;
+}
+
+.bot-nav{
+    width:940px;
+    height:156px;
+    margin:35px auto;
+}
+
+.bot-nav ul{
+    float:left;
+    width:140px;
+}
+.bot-nav ul li{
+    line-height: 25px;
+    font-size:13px;
+}
+.bot-nav ul li a{
+    color:#999;
+}
+.bot-nav ul li a:hover{
+    color:#fff;
+}
+.tubiao{
+    float:right;
+}
+.tubiao a{
+    color:#000;
+}
+.tubiao .iconfont{
+    font-size:24px;
+}
+.tubiao i:nth-child(1) a{
+    font-size:27px;
+}
+.tubiao a:hover{
+    color:#fff;
+}
+.ewm img{
+    margin-left:330px;
+    display: none;
+}
+.luokuan{
+    width:940px;
+    height:90px;
+    border-top:1px solid #666;
+  
+    margin:0 auto;
+}
+.luokuan .top{
+    height:30px;
+    margin-top:10px;
+}
+.top div{
+    float:left;  
+}
+.top .left{
+    font-size:12px;
+}
+.top .left i{
+    font-size:8px;
+    color:red;
+}
+.top .left .dalu a{
+    color:#e5e5e5
+}
+.top .middle{
+    margin-left:180px;
+}
+.top .left .n-two{
+    color:#aaa;
+}
+.top .middle ul li{
+    float:left;
+    font-size:12px;
+    margin:0 10px;
+}
+.top .right{
+    float:right;
+    margin-top:-5px;
+}
+.top .middle a{
+    color:#aaa;
+}
+.top .middle a:hover{
+    color:#e5e5e5;
+}
+.right a span{
+    color:#e5e5e5;
+    font-size:12px;
+}
+.bot{
+    float:right;
+}
+.bot a span{
+    font-size:14px;
+    color:#aaa;
+}
+.bot a span:hover{
+    color:#e5e5e5;
+}
+
+
+/*------------------------------ 尾部end-------------------------- */
